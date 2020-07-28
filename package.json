@@ -1,6 +1,6 @@
 {
   "name": "resize-image-buffer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Resize image buffer in memory",
   "license": "MIT",
   "repository": "velusgautam/resize-image-buffer",
