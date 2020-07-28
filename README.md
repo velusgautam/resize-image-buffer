@@ -1,4 +1,4 @@
-> Resize images in memory
+# Resize imageBuffer to imageBuffer 😃
 
 ## Install
 
