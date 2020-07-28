@@ -1,0 +1,43 @@
+{
+  "name": "resize-image-buffer",
+  "version": "0.0.0",
+  "description": "Resize image buffer in memory",
+  "license": "MIT",
+  "repository": "velusgautam/resize-image-buffer",
+  "author": {
+    "name": "Velu S Gautam",
+    "email": "i@velusgautam.com",
+    "url": "https://github.com/velusgautam"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fast",
+    "image",
+    "memory",
+    "resize",
+    "buffer",
+    "image buffer",
+    "bmp",
+    "jpeg",
+    "jpg",
+    "png"
+  ],
+  "dependencies": {
+    "file-type": "^14.6.2",
+    "jimp": "^0.14.0"
+  },
+  "devDependencies": {
+    "ava": "^3.11.0",
+    "image-size": "^0.8.3"
+  }
+}
