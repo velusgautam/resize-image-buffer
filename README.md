@@ -1,31 +1,28 @@
-# resize-img [![Build Status](https://travis-ci.org/kevva/resize-img.svg?branch=master)](https://travis-ci.org/kevva/resize-img)
-
 > Resize images in memory
-
 
 ## Install
 
 ```
-$ npm install resize-img
-```
+npm install resize-image-buffer
 
+yarn add resize-image-buffer
+```
 
 ## Usage
 
 ```js
 const fs = require('fs');
-const resizeImg = require('resize-img');
+const resizeImg = require('resize-image-buffer');
 
 (async () => {
-	const image = await resizeImg(fs.readFileSync('unicorn.png'), {
-		width: 128,
-		height: 128
-	});
+  const image = await resizeImg(fs.readFileSync('unicorn.png'), {
+    width: 128,
+    height: 128,
+  });
 
-	fs.writeFileSync('unicorn-128x128.png', image);
+  fs.writeFileSync('unicorn-128x128.png', image);
 })();
 ```
-
 
 ## API
 
@@ -60,8 +57,3 @@ Desired height of the target image.
 Type: `string`
 
 The output file format for the target image. Supported formats are `bmp`, `jpg` and `png`.
-
-
-## Related
-
-* [resize-img-cli](https://github.com/kevva/resize-img-cli) - CLI for this module.
