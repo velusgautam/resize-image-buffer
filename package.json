@@ -33,7 +33,7 @@
     "png"
   ],
   "dependencies": {
-    "file-type": "^14.6.2",
+    "file-type": "^16.5.4",
     "jimp": "^0.14.0"
   },
   "devDependencies": {
