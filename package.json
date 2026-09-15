@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "ava": "^3.11.0",
-    "image-size": "^0.8.3"
+    "image-size": "npm:image-size-next@1.2.2"
   }
 }
